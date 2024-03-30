@@ -3,9 +3,12 @@
 }
 
 .hw {
-
+    border: 1px solid #D9D9D9;
 }
 
 .hwTitle {
-
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
 }
