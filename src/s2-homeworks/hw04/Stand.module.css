@@ -2,7 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 90px 70px 55px;
+
 }
+
 
 .inputs {
     display: flex;
