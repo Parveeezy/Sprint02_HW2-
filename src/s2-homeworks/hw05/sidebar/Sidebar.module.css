@@ -1,24 +1,64 @@
 .sidebar {
+    display: none;
+    width: 317px;
+    position: fixed;
+    z-index: 10000;
+    transition: 200ms linear 50ms;
 }
 
 .sidebar.open {
+    display: block;
 }
 
 .background {
+    position: fixed; /* или absolute, в зависимости от структуры вашего кода */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 317px; /* покрыть весь экран или заменить на значение, чтобы ограничить по левому краю */
+    background-color: rgba(0, 0, 0, 0.1); /* черный полупрозрачный фон */
+    z-index: 999; /* значение z-index должно быть достаточным, чтобы находиться "поверх" других элементов */
 }
 
 .nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    padding-top: 63px;
+    padding-left: 70px;
+    font-size: 22px;
+    font-weight: 600;
+    z-index: 1000;
+
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 371px;
+    background-color: #fff;
 }
 
 .nav a {
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 45px;
 }
 
 .nav a:hover {
+    color: #58ACFF;
 }
 
 .nav a.active {
+    color: #0059B2;
+    text-decoration: underline;
 }
+
 .close {
+    position: fixed;
+    z-index: 200000;
+    background-color: transparent;
+    border: none;
+    top: 16px;
+    left: 293px;
 }
 
 .close img {
