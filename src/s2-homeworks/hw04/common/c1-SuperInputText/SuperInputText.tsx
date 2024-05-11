@@ -29,6 +29,7 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
         onEnter,
         error,
         className,
+
         spanClassName,
         id,
 

@@ -4,6 +4,8 @@
 
 .hw {
     border: 1px solid #D9D9D9;
+    border-left: none;
+    border-right: none;
 }
 
 .hwTitle {
@@ -11,4 +13,5 @@
     font-size: 22px;
     font-weight: 600;
     text-align: left;
+    margin-left: 70px;
 }
