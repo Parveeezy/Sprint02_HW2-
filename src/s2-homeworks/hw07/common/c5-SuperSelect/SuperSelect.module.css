@@ -1,9 +1,19 @@
 .select {
+    width: 180px;
+    padding: 6px 10px;
 }
 
 .select:focus {
+
 }
 
+.option{
+    display: block;
+    padding: 5px 10px;
+    margin: 5px 10px;
+}
 
 .option:hover {
+    color: #FFFFFF;
+    background-color: #1E90FF;
 }

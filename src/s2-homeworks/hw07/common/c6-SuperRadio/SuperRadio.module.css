@@ -1,4 +1,6 @@
 .radio {
+    margin-left: 108px;
+    margin-bottom: 22px;
 }
 
 .radio::before {
@@ -11,5 +13,11 @@
 .label {
 }
 
+.label span {
+    margin-left: 10px;
+}
+
 .options {
+    display: flex;
+    flex-direction: column;
 }
