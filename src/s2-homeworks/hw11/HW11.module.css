@@ -1,8 +1,11 @@
 .container {
+    max-width: 174px;
 }
 
 .wrapper {
 }
 
 .number {
+    color: rgba(0, 0, 0, 1);
+    font-weight: 600;
 }
