@@ -1,7 +1,13 @@
 .buttonsContainer {
+    margin-bottom: 80px;
+    display: flex;
+    gap: 24px;
 }
 
 .responseContainer {
+    margin-left: 90px;
+    display: flex;
+    align-items: center;
 }
 
 .imageContainer {
@@ -11,12 +17,17 @@
 }
 
 .textContainer{
+    margin-left: 90px;
 }
 
 .code {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 500;
 }
 
 .text {
+
 }
 .info {
 }
